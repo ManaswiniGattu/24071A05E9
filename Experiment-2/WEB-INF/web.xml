@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>FareServlet</servlet-name>
+        <servlet-class>FareServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FareServlet</servlet-name>
+        <url-pattern>/fare</url-pattern>
+    </servlet-mapping>
+
+</web-app>
